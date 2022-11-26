@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #f0f0f0;
+}
+
+.btn{
+    display: inline-block;
+    padding: 15px 60px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    background: #111;
+    color: #eee;
+    border-radius: 5px;
+    transition: backgroud 500ms ease;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #000;
+}
+
+.headline{
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+#navbar{
+    width: 100%;
+    height: 80px;
+    background: #0C63A4;
+    color: rgb(255, 255, 255);
+    position: fixed;
+}
+
+#navbar-container{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 2rem;
+}
+
+#navbar-itens{
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#navbar-itens li{
+padding: 10px;
+color: #fff;
+
+}
+
+.cards{
+	margin-top: 35px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	row-gap: 35px;
+}
+
+.cards .card{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 300px;
+}
+
+.cards .card .conteudo{
+	background: #F6F6F6;
+	border: 1px solid #B4B0B0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 298px;
+	height: 280px;
+	padding-top: 20px;
+}
+
+.cards .card .conteudo img{
+	margin-bottom: 15px;
+	width: 100px;
+}
+.cards .card .conteudo div{
+	margin-bottom: 10px;
+}
+
+.cards .card .conteudo .nome{
+	font-weight: 400;
+	font-size: 20px;
+	text-align: center;
+}
+.cards .card .conteudo .lugar{
+	font-weight: 700;
+	font-size: 22px;
+}
+.cards .card button{
+	background: #0C63A4;
+	border: 1px solid #000000;
+	width: 100%;
+	color: #fff;
+	font-weight: 600;
+	font-size: 22px;
+	padding: 5px 0;
+	cursor: pointer;
+}
+
+    
